@@ -12,6 +12,7 @@ public class GunTurret extends Fixed{
     private Bitmap mBitmapGunTurret;
     private String weapon;
     private int cost;
+    private int range;
 
     public GunTurret (Context context, int xlocation, int ylocation, int size) {
         super(0);

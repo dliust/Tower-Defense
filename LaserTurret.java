@@ -12,6 +12,7 @@ public class LaserTurret extends Fixed{
     private Bitmap mBitmapLaserTurret;
     private String weapon;
     private int cost;
+    private int range;
 
     public LaserTurret (Context context, int xlocation, int ylocation, int size) {
         super(0);
